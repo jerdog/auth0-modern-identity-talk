@@ -1,117 +1,213 @@
-@title[Introduction]
+# Intro to Modern Identity
+## Ado Kukic
+---
 
-# Git<span class="gold">Pitch</span>
+# What is Identity?
 
-#### Markdown Presentations For Everyone on Git
-<br>
-<br>
-<span class="byline">[ GitHub, GitLab, Bitbucket, GitBucket, Gitea, Gogs ]</span>
+——-
+
+# What is **Modern** Identity?
+
+* Authentication
+* Authorization
+* Security
+* Personalization
 
 ---
 
-@title[PITCHME.md]
-
-#### GitPitch turns <span class="gold">PITCHME.md</span> into
-#### interactive,
-#### online and offline slideshows.
-<br>
-<span class="aside">Just like this one...</span>
+# Authentication
+## The way you login
 
 ---
 
-#### No more <span class="gray">Keynote</span>.
-#### No more <span class="gray">Powerpoint</span>.
-<br>
-#### Just <span class="gold">Markdown</span>.
-#### Then <span class="gold">Git-Commit</span>.
+# Authorization
+## Right access, right time
+---
 
----?code=assets/md/hello.md&title=Step 1. PITCHME.md
-
-<br>
-#### Create slideshow content using GitHub Flavored Markdown in your favorite editor.
-
-<span class="aside">It's as easy as README.md with simple slide-delimeters (---)</span>
+# Security
+## Protecting data in motion and at rest
 
 ---
 
-@title[Step 2. Git-Commit]
+# Personalization
+## Tailored user experience
 
-### <span class="gold">STEP 2. GIT-COMMIT</span>
-<br>
-
-```shell
-$ git add PITCHME.md
-$ git commit -m "New slideshow content."
-$ git push
-
-Done!
-```
-
-@[1](Add your PITCHME.md slideshow content file.)
-@[2](Commit PITCHME.md to your local repo.)
-@[3](Push PITCHME.md to your public repo and you're done!)
-@[5](Supports GitHub, GitLab, Bitbucket, GitBucket, Gitea, and Gogs.)
 
 ---
 
-@title[Step 3. Done!]
+# Authentication
 
-### <span class="gold">STEP 3. GET THE WORD OUT!</span>
-<br>
-![GitPitch Slideshow URLs](assets/images/gp-slideshow-urls.png)
-<br>
-<br>
-#### Instantly use your GitPitch slideshow URL to promote, pitch or present absolutely anything.
+* Traditional Username and Password
+* Social Login via Facebook, Twitter, Google, etc.
+* Enterprise Federation and Single Sign On
+* Passwordless
 
 ---
 
-@title[Slide Rich]
+## Traditional Username and Password
 
-### <span class="gold">Slide Rich</span>
+![left](http://i.imgur.com/IWSeMKD.png)
 
-#### Code Presenting for Blocks, Files, and GISTs
-#### Image, Video, Chart, and Math Slides
-#### Multiple Themes with Easy Customization
-<br>
-#### <span class="gold">Plus collaboration is built-in...</span>
-#### Your Slideshow is Part of Your Project
-#### Under Git Version Control within Your Git Repo
+* Most Common
+* Easy to Implement
+* Least Secure
 
 ---
 
-@title[Feature Rich]
+## Social Login
 
-### <span class="gold">Feature Rich</span>
+![right](http://i.imgur.com/aQlQwSL.png)
 
-#### Present Online or Offline
-#### With Speaker Notes Support
-#### Print Presentation as PDF
-#### Auto-Generated Table-of-Contents
-#### Share Presentation on Twitter or LinkedIn
+* Common
+* Medium Difficulty
+* More secure
 
 ---
 
-### <span class="gold">GitPitch Pro - Now Live!</span>
+## Single Sign On
 
-<br>
-<div class="left">
-    <i class="fa fa-user-secret fa-5x" aria-hidden="true"> </i><br>
-    <a href="https://gitpitch.com/pro-features" class="pro-link">
-    More details here.</a>
-</div>
-<div class="right">
-    <ul>
-        <li>Private Repos</li>
-        <li>Private URLs</li>
-        <li>Password-Protection</li>
-        <li>Image Opacity</li>
-        <li>SVG Image Support</li>
-    </ul>
-</div>
+![left](http://i.imgur.com/qdj56Xd.png)
+
+* Most Common in Enterprise
+* Difficult to Implement
+* Solves authorization use cases
 
 ---
 
-### Go for it.
-### Just add <span class="gold">PITCHME.md</span> ;)
-<br>
-[Click here to learn more @fa[external-link fa-pad-left]](https://github.com/gitpitch/gitpitch/wiki)
+## Passwordless
+
+![right](http://i.imgur.com/1Rjo2z0.png)
+
+* Rare / Up and Coming
+* Easy to Implement
+* Very Secure
+
+---
+
+# Authorization
+
+* Ensure the user has the right access at the right time
+* Change and revoke access
+
+---
+
+# Security
+
+### Identity doesn't end at the login screen
+
+---
+
+## Passwords
+
+* Complexity
+* Storage and Security
+
+![left](http://i.imgur.com/L7opICp.png)
+
+---
+
+## Multifactor Authentication
+
+* Something you know
+* Something you have
+* Something you are
+
+![right](http://i.imgur.com/lMxA4xB.png)
+
+---
+
+## Brute Force Protection
+
+* Prevent repeated failed login attempts
+* Alert user and validate identity
+
+![left](https://upload.wikimedia.org/wikipedia/en/d/d0/Brute_Force_Coverart.png)
+
+---
+
+## Anomaly Detection
+
+* Proactively protect users
+* Alert user of suspicious activity
+* **Breached Password Detection**
+
+![right](http://mabrek.github.io/img/aspm/bimodal-spike.png)
+
+---
+
+# Personalization
+
+* Give a personal touch to each user
+* Make Data Work for You
+* Enhanced Analytics
+
+---
+
+# Why Modern Identity?
+
+## 3 Big Reasons
+
+---
+# 1. Higher Conversation Rates
+---
+# 2. Better User Experience
+---
+# 3. Increased Revenue
+
+---
+
+## 4. Enhanced Security
+
+## Data and Security Breaches
+
+## Not **IF**, but **WHEN**
+
+---
+
+![full](https://cdn.auth0.com/blog/build-vs-buy/data-breaches.png)
+
+---
+
+# With Modern Identity you can Better Protect Yourself
+
+---
+# Implementing Modern Identity
+
+## Build vs Buy
+
+---
+
+# Build Modern Identity In-House
+
+Pros|Cons
+---|---
+Full Control | Complex and difficult
+Feature Parity | Cost to build and maintain
+No external dependency | Not Core Competency
+
+---
+
+# Buy 3rd Party Solution
+
+Pros|Cons
+---|---
+Time to Market | Reliance on 3rd Party
+Dedicated Experts | Features may not fit needs
+Little Maintenance | Cost
+
+---
+
+# Auth0
+
+## Identity as a Service
+
+![left](https://gon.to/images/about/a0-b.png)
+
+* Modern Identity in **10 Minutes**
+* Free Tier (7,000 Monthly Active Users)
+* Team of Security Experts
+
+---
+# Thank You!
+
+## Questions?
