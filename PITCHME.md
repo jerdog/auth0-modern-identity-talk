@@ -1,12 +1,12 @@
 ## Intro to Modern Identity
-### Jeremy Meiss
+#### Jeremy Meiss
 ---
 
-# What is Identity?
+## What is Identity?
 
 ——-
 
-# What is **Modern** Identity?
+## What is **Modern** Identity?
 
 * Authentication
 * Authorization
@@ -15,27 +15,27 @@
 
 ---
 
-# Authentication
-## The way you login
+## Authentication
+### The way you login
 
 ---
 
-# Authorization
-## Right access, right time
+## Authorization
+### Right access, right time
 ---
 
-# Security
-## Protecting data in motion and at rest
-
----
-
-# Personalization
-## Tailored user experience
-
+## Security
+### Protecting data in motion and at rest
 
 ---
 
-# Authentication
+## Personalization
+### Tailored user experience
+
+
+---
+
+## Authentication
 
 * Traditional Username and Password
 * Social Login via Facebook, Twitter, Google, etc.
@@ -44,7 +44,7 @@
 
 ---
 
-## Traditional Username and Password
+### Traditional Username and Password
 
 ![left](http://i.imgur.com/IWSeMKD.png)
 
@@ -54,7 +54,7 @@
 
 ---
 
-## Social Login
+### Social Login
 
 ![right](http://i.imgur.com/aQlQwSL.png)
 
@@ -64,7 +64,7 @@
 
 ---
 
-## Single Sign On
+### Single Sign On
 
 ![left](http://i.imgur.com/qdj56Xd.png)
 
@@ -74,7 +74,7 @@
 
 ---
 
-## Passwordless
+### Passwordless
 
 ![right](http://i.imgur.com/1Rjo2z0.png)
 
@@ -84,20 +84,20 @@
 
 ---
 
-# Authorization
+## Authorization
 
 * Ensure the user has the right access at the right time
 * Change and revoke access
 
 ---
 
-# Security
+## Security
 
-### Identity doesn't end at the login screen
+#### Identity doesn't end at the login screen
 
 ---
 
-## Passwords
+### Passwords
 
 * Complexity
 * Storage and Security
@@ -106,7 +106,7 @@
 
 ---
 
-## Multifactor Authentication
+### Multifactor Authentication
 
 * Something you know
 * Something you have
@@ -116,7 +116,7 @@
 
 ---
 
-## Brute Force Protection
+### Brute Force Protection
 
 * Prevent repeated failed login attempts
 * Alert user and validate identity
@@ -125,7 +125,7 @@
 
 ---
 
-## Anomaly Detection
+### Anomaly Detection
 
 * Proactively protect users
 * Alert user of suspicious activity
@@ -135,7 +135,7 @@
 
 ---
 
-# Personalization
+## Personalization
 
 * Give a personal touch to each user
 * Make Data Work for You
@@ -143,24 +143,24 @@
 
 ---
 
-# Why Modern Identity?
+## Why Modern Identity?
 
-## 3 Big Reasons
-
----
-# 1. Higher Conversation Rates
----
-# 2. Better User Experience
----
-# 3. Increased Revenue
+### 3 Big Reasons
 
 ---
+## 1. Higher Conversation Rates
+---
+## 2. Better User Experience
+---
+## 3. Increased Revenue
 
-## 4. Enhanced Security
+---
 
-## Data and Security Breaches
+### 4. Enhanced Security
 
-## Not **IF**, but **WHEN**
+#### Data and Security Breaches
+
+### Not **IF**, but **WHEN**
 
 ---
 
@@ -168,16 +168,16 @@
 
 ---
 
-# With Modern Identity you can Better Protect Yourself
+## With Modern Identity you can Better Protect Yourself
 
 ---
-# Implementing Modern Identity
+## Implementing Modern Identity
 
-## Build vs Buy
+### Build vs Buy
 
 ---
 
-# Build Modern Identity In-House
+## Build Modern Identity In-House
 
 Pros|Cons
 ---|---
@@ -187,7 +187,7 @@ No external dependency | Not Core Competency
 
 ---
 
-# Buy 3rd Party Solution
+## Buy 3rd Party Solution
 
 Pros|Cons
 ---|---
@@ -197,9 +197,9 @@ Little Maintenance | Cost
 
 ---
 
-# Auth0
+## Auth0
 
-## Identity as a Service
+### Identity as a Service
 
 ![left](https://gon.to/images/about/a0-b.png)
 
@@ -208,6 +208,6 @@ Little Maintenance | Cost
 * Team of Security Experts
 
 ---
-# Thank You!
+## Thank You!
 
-## Questions?
+### Questions?
