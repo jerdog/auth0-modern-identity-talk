@@ -1,5 +1,5 @@
-# Intro to Modern Identity
-## Ado Kukic
+## Intro to Modern Identity
+### Jeremy Meiss
 ---
 
 # What is Identity?
