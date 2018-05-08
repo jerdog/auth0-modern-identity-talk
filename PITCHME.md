@@ -87,11 +87,18 @@ Note:
 ---
 ### Social Login
 
-![right](http://i.imgur.com/aQlQwSL.png)
+@div[left-50]
+![social](http://i.imgur.com/aQlQwSL.png)
+@divend
 
+@div[right-50]
+<br>
+@ul[brighten]
 * Common
 * Medium Difficulty
 * More secure
+@ulend
+@divend
 
 Note:
 
@@ -99,11 +106,18 @@ Note:
 ---
 ### Single Sign On
 
-![left](http://i.imgur.com/qdj56Xd.png)
+@div[left-50]
+![sso](http://i.imgur.com/qdj56Xd.png)
+@divend
 
+@div[right-50]
+<br>
+@ul[brighten]
 * Most Common in Enterprise
 * Difficult to Implement
 * Solves authorization use cases
+@ulend
+@divend
 
 Note:
 
@@ -111,11 +125,18 @@ Note:
 ---
 ### Passwordless
 
-![right](http://i.imgur.com/1Rjo2z0.png)
+@div[left-50]
+![pwdless](http://i.imgur.com/1Rjo2z0.png)
+@divend
 
+@div[right-50]
+<br>
+@ul[brighten]
 * Rare / Up and Coming
 * Easy to Implement
 * Very Secure
+@ulend
+@divend
 
 Note:
 
@@ -140,10 +161,17 @@ Note:
 ---
 ### Passwords
 
+@div[left-50]
+<br>
+@ul[brighten]
 * Complexity
 * Storage and Security
+@ulend
+@divend
 
-![left](http://i.imgur.com/L7opICp.png)
+@div[right-50]
+![pwd](http://i.imgur.com/L7opICp.png)
+@divend
 
 Note:
 
@@ -151,11 +179,18 @@ Note:
 ---
 ### Multifactor Authentication
 
+@div[left-50]
+<br>
+@ul[brighten]
 * Something you know
 * Something you have
 * Something you are
+@ulend
+@divend
 
-![right](http://i.imgur.com/lMxA4xB.png)
+@div[right-50]
+![mfa](http://i.imgur.com/lMxA4xB.png)
+@divend
 
 Note:
 
@@ -163,10 +198,17 @@ Note:
 ---
 ### Brute Force Protection
 
+@div[left-50]
+<br>
+@ul[brighten]
 * Prevent repeated failed login attempts
 * Alert user and validate identity
+@ulend
+@divend
 
-![left](https://upload.wikimedia.org/wikipedia/en/d/d0/Brute_Force_Coverart.png)
+@div[right-50]
+![brute-force](https://upload.wikimedia.org/wikipedia/en/d/d0/Brute_Force_Coverart.png)
+@divend
 
 Note:
 
@@ -174,11 +216,18 @@ Note:
 ---
 ### Anomaly Detection
 
+@div[left-50]
+<br>
+@ul[brighten]
 * Proactively protect users
 * Alert user of suspicious activity
 * **Breached Password Detection**
+@ulend
+@divend
 
-![right](http://mabrek.github.io/img/aspm/bimodal-spike.png)
+@div[right-50]
+![anomaly](http://mabrek.github.io/img/aspm/bimodal-spike.png)
+@divend
 
 Note:
 
@@ -229,9 +278,7 @@ Note:
 Note:
 
 
----
-
-![full](https://cdn.auth0.com/blog/build-vs-buy/data-breaches.png)
+---?image=https://cdn.auth0.com/blog/build-vs-buy/data-breaches.png&size=auto 90%
 
 ---
 ## With Modern Identity you can Better Protect Yourself
@@ -276,11 +323,18 @@ Note:
 
 ### Identity as a Service
 
-![left](https://gon.to/images/about/a0-b.png)
+@div[left-50]
+![iaas](https://gon.to/images/about/a0-b.png)
+@divend
 
+@div[right-50]
+<br>
+@ul[brighten]
 * Modern Identity in **10 Minutes**
 * Free Tier (7,000 Monthly Active Users)
 * Team of Security Experts
+@ulend
+@divend
 
 Note:
 
