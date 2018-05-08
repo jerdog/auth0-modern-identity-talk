@@ -2,9 +2,19 @@
 #### Jeremy Meiss
 ---
 
+## About Me
+![ARGH](assets/images/img_jeremy_2014.jpg
+#### Jeremy Meiss
+Head of Community, Auth0<br />
+<i class="fa fa-twitter"></i> @IAmJerdog<br />
+<i class="fa fa-web"></i>https://auth0.com<br />
+<i class="fa fa-email"></i>jeremy.meiss@auth0
+
+---
+
 ## What is Identity?
 
-——-
+---
 
 ## What is **Modern** Identity?
 

@@ -8,3 +8,6 @@ Jeremy Meiss
 
 ## Audience
 General
+
+## Viewing
+https://gitpitch.com/jerdog/auth0-modern-identity-talk/dev?grs=gitlab
