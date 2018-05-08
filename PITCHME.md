@@ -68,11 +68,18 @@ Note:
 ---
 ### Traditional Username and Password
 
-![left](http://i.imgur.com/IWSeMKD.png)
+@div[left-50]
+<br>
+![Traditional](http://i.imgur.com/IWSeMKD.png)
 
+@div[right-50]
+<br><br><br>
+@ul[brighten]
 * Most Common
 * Easy to Implement
 * Least Secure
+@ulend
+@divend
 
 Note:
 
