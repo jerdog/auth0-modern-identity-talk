@@ -72,11 +72,9 @@ Note:
 ![Traditional](http://i.imgur.com/IWSeMKD.png)
 
 @div[right-50]
-@ul[brighten]
 * Most Common
 * Easy to Implement
 * Least Secure
-@ulend
 @divend
 
 Note:
