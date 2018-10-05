@@ -13,18 +13,18 @@ Head of Community, Auth0<br />
 ## What is Identity?
 
 Note:
-Digital identity is at the core of any application - invisible yet crucial. We often take identity for granted as most of its magic happens behind the scenes. But identity plays a much larger role beyond just at the login screen for your applications.
+Digital identity is at the core of any application - invisible yet crucial. We often take identity for granted as most of its magic happens behind the scenes. But identity plays a much larger role beyond just at the login screen for your applications. 
 
 ---
 ## What is **Modern** Identity?
 
 * Authentication
 * Authorization
-* Security
 * Personalization
+* Security
 
 Note:
-At a high level, we can break up identity into four distinct components: authentication, authorization, user profile, and security.
+Identity management is more than just being able to stick a username and password into a login box. It's very difficult to do right, and login will throw a wrench in the works if it's done wrong. But when you're committed to the best practices for login management, your business can benefit in ways you might not have realized. At a high level, we can break up identity into four distinct components: authentication, authorization, personalization, and security - with all of these points (Authentication, Authorization, Security, Personalization) having existed for a long time.
 
 ---
 ## Authentication
@@ -38,21 +38,21 @@ Authentication will dictate how users login to your application. This used to be
 ### Right access, right time
 
 Note:
-
-
----
-## Security
-### Protecting data in motion and at rest
-
-Note:
-
+Authorization ensures the right users have the right access at the right time. For instance, admins should be easily able to make system-wide changes, while regular users can only make changes relative to themselves. Access has to be fine-tuned, regardless of how large (or small) the app/business is. This requires that multiple departments, regions, complex hierarchies, groups, and users moving throughout the system need up-to-date access in order to work effectively. Access is therefore very important to making sure that your app operates as intended - and this can be a very real challenge to getting this aspect of identity right.
 
 ---
 ## Personalization
 ### Tailored user experience
 
 Note:
+The user profile is concerned with the data that your application has collected on each individual user. The better you know your users the better experience and personalization you can provide. With disparate networks and various sets of data floating all around the web, it can be difficult to get a clear understanding of your users, but companies that can will have an upper hand.
 
+---
+## Security
+### Protecting data in motion and at rest
+
+Note:
+Finally, the security part of the modern identity story ensures that user data is protected both in motion and at rest. Security can be looked at through various lenses. The first, starts when a user attempts to login. Protecting user accounts at time of login with multifactor authentication, anomaly detection, and breached password detection are just some of the quick wins that will make your application more secure and stand out from the crowd. Ensuring data is protected at rest, passwords properly encrypted, and adherence to industry standards and certifications are other aspects of security that must be enforced.
 
 ---
 ## Authentication
@@ -61,6 +61,8 @@ Note:
 * Social Login via Facebook, Twitter, Google, etc.
 * Enterprise Federation and Single Sign On
 * Passwordless
+* MFA
+* Biometrics
 
 Note:
 
@@ -82,6 +84,7 @@ Note:
 @divend
 
 Note:
+"Easy to implement" here is a fallacy as actually it's not, as it's not easy to reach the level of security that you should be aiming for.
 
 
 ---
@@ -114,7 +117,6 @@ Note:
 <br>
 @ul[brighten]
 * Most Common in Enterprise
-* Difficult to Implement
 * Solves authorization use cases
 @ulend
 @divend
@@ -134,7 +136,7 @@ Note:
 @ul[brighten]
 * Rare / Up and Coming
 * Easy to Implement
-* Very Secure
+* More Secure; no passowrds stored
 @ulend
 @divend
 
@@ -156,7 +158,7 @@ Note:
 #### Identity doesn't end at the login screen
 
 Note:
-
+Unfortunately, we can't even go a few months without hearing about breaches of user login information and identities. As more companies implement an online or app presence and more consumers sign up for those accounts, the stakes of a security compromise only grow with each passing year. There are multiple different ways to ensure that users and their identities are being taken care of.
 
 ---
 ### Passwords
@@ -316,7 +318,7 @@ Dedicated Experts | Features may not fit needs
 Little Maintenance | Cost
 
 Note:
-
+Unless you decide to sink your resources into building a full-scale identity management team, you simply won't be able to tap into the benefits that a robust IAM solution can offer you. Besides that, outsourcing identity management can help you increase productivity, collaboration, efficiency and security in your organization through consolidated identity.
 
 ---
 ## Auth0
@@ -343,3 +345,6 @@ Note:
 ## Thank You!
 
 ### Questions?
+
+Note:
+The question is no longer “should we or shouldn’t we”, but rather “how do we modernize our platform” for current and future needs. The software industry is going through a radical transformation and legacy monolithic applications are no longer compatible with today’s business needs and user expectations. Application modernization is not something that can be achieved overnight and there are many paths to the end goal, but starting with identity is a surefire win-win for both your organization and your users.
