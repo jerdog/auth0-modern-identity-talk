@@ -13,7 +13,7 @@ Head of Community, Auth0<br />
 ## What is Identity?
 
 Note:
-Digital identity is at the core of any application - invisible yet crucial. We often take identity for granted as most of its magic happens behind the scenes. But identity plays a much larger role beyond just at the login screen for your applications. 
+Digital identity is at the core of any application - invisible yet crucial. We often take identity for granted as most of its magic happens behind the scenes. But identity plays a much larger role beyond just at the login screen for your applications.
 
 ---
 ## What is **Modern** Identity?
@@ -122,7 +122,7 @@ Note:
 @divend
 
 Note:
-
+SSO is important but not modern in the true sense of the concept as it's been around awhile and isn't terribly difficult to implement, likely the easiest for developers.
 
 ---
 ### Passwordless
@@ -136,12 +136,12 @@ Note:
 @ul[brighten]
 * Rare / Up and Coming
 * Easy to Implement
-* More Secure; no passowrds stored
+* More Secure than with password
 @ulend
 @divend
 
 Note:
-
+Passwordless is more secure than using a password. No passwords are stored.
 
 ---
 ## Authorization
