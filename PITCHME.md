@@ -1,117 +1,350 @@
-@title[Introduction]
-
-# Git<span class="gold">Pitch</span>
-
-#### Markdown Presentations For Everyone on Git
-<br>
-<br>
-<span class="byline">[ GitHub, GitLab, Bitbucket, GitBucket, Gitea, Gogs ]</span>
+## Intro to Modern Identity
+#### Jeremy Meiss
 
 ---
-
-@title[PITCHME.md]
-
-#### GitPitch turns <span class="gold">PITCHME.md</span> into
-#### interactive,
-#### online and offline slideshows.
-<br>
-<span class="aside">Just like this one...</span>
+## About Me
+![ARGH](assets/images/img_jeremy_2014.jpg
+#### Jeremy Meiss
+Head of Community, Auth0<br />
+<i class="fa fa-twitter"></i> @IAmJerdog<br />
+<i class="fa fa-web"></i>https://auth0.com<br />
 
 ---
+## What is Identity?
 
-#### No more <span class="gray">Keynote</span>.
-#### No more <span class="gray">Powerpoint</span>.
-<br>
-#### Just <span class="gold">Markdown</span>.
-#### Then <span class="gold">Git-Commit</span>.
-
----?code=assets/md/hello.md&title=Step 1. PITCHME.md
-
-<br>
-#### Create slideshow content using GitHub Flavored Markdown in your favorite editor.
-
-<span class="aside">It's as easy as README.md with simple slide-delimeters (---)</span>
+Note:
+Digital identity is at the core of any application - invisible yet crucial. We often take identity for granted as most of its magic happens behind the scenes. But identity plays a much larger role beyond just at the login screen for your applications.
 
 ---
+## What is **Modern** Identity?
 
-@title[Step 2. Git-Commit]
+* Authentication
+* Authorization
+* Personalization
+* Security
 
-### <span class="gold">STEP 2. GIT-COMMIT</span>
-<br>
-
-```shell
-$ git add PITCHME.md
-$ git commit -m "New slideshow content."
-$ git push
-
-Done!
-```
-
-@[1](Add your PITCHME.md slideshow content file.)
-@[2](Commit PITCHME.md to your local repo.)
-@[3](Push PITCHME.md to your public repo and you're done!)
-@[5](Supports GitHub, GitLab, Bitbucket, GitBucket, Gitea, and Gogs.)
+Note:
+Identity management is more than just being able to stick a username and password into a login box. It's very difficult to do right, and login will throw a wrench in the works if it's done wrong. But when you're committed to the best practices for login management, your business can benefit in ways you might not have realized. At a high level, we can break up identity into four distinct components: authentication, authorization, personalization, and security - with all of these points (Authentication, Authorization, Security, Personalization) having existed for a long time.
 
 ---
+## Authentication
+### The way you login
 
-@title[Step 3. Done!]
-
-### <span class="gold">STEP 3. GET THE WORD OUT!</span>
-<br>
-![GitPitch Slideshow URLs](assets/images/gp-slideshow-urls.png)
-<br>
-<br>
-#### Instantly use your GitPitch slideshow URL to promote, pitch or present absolutely anything.
+Note:
+Authentication will dictate how users login to your application. This used to be as simple as a username and password. Who here remembers not really having any requirements for a username/password? Now it's a lot more complicated, which is a good thing. We still have the uid/pwd option, but have added social connections (FB / Twitter), enterprise federation and SSO, and even "passwordless" to the mix. Implementing all of these into your application can be a time-consuming, and even scary proposition given the stakes that are often at risk.
 
 ---
+## Authorization
+### Right access, right time
 
-@title[Slide Rich]
-
-### <span class="gold">Slide Rich</span>
-
-#### Code Presenting for Blocks, Files, and GISTs
-#### Image, Video, Chart, and Math Slides
-#### Multiple Themes with Easy Customization
-<br>
-#### <span class="gold">Plus collaboration is built-in...</span>
-#### Your Slideshow is Part of Your Project
-#### Under Git Version Control within Your Git Repo
+Note:
+Authorization ensures the right users have the right access at the right time. For instance, admins should be easily able to make system-wide changes, while regular users can only make changes relative to themselves. Access has to be fine-tuned, regardless of how large (or small) the app/business is. This requires that multiple departments, regions, complex hierarchies, groups, and users moving throughout the system need up-to-date access in order to work effectively. Access is therefore very important to making sure that your app operates as intended - and this can be a very real challenge to getting this aspect of identity right.
 
 ---
+## Personalization
+### Tailored user experience
 
-@title[Feature Rich]
-
-### <span class="gold">Feature Rich</span>
-
-#### Present Online or Offline
-#### With Speaker Notes Support
-#### Print Presentation as PDF
-#### Auto-Generated Table-of-Contents
-#### Share Presentation on Twitter or LinkedIn
+Note:
+The user profile is concerned with the data that your application has collected on each individual user. The better you know your users the better experience and personalization you can provide. With disparate networks and various sets of data floating all around the web, it can be difficult to get a clear understanding of your users, but companies that can will have an upper hand.
 
 ---
+## Security
+### Protecting data in motion and at rest
 
-### <span class="gold">GitPitch Pro - Now Live!</span>
-
-<br>
-<div class="left">
-    <i class="fa fa-user-secret fa-5x" aria-hidden="true"> </i><br>
-    <a href="https://gitpitch.com/pro-features" class="pro-link">
-    More details here.</a>
-</div>
-<div class="right">
-    <ul>
-        <li>Private Repos</li>
-        <li>Private URLs</li>
-        <li>Password-Protection</li>
-        <li>Image Opacity</li>
-        <li>SVG Image Support</li>
-    </ul>
-</div>
+Note:
+Finally, the security part of the modern identity story ensures that user data is protected both in motion and at rest. Security can be looked at through various lenses. The first, starts when a user attempts to login. Protecting user accounts at time of login with multifactor authentication, anomaly detection, and breached password detection are just some of the quick wins that will make your application more secure and stand out from the crowd. Ensuring data is protected at rest, passwords properly encrypted, and adherence to industry standards and certifications are other aspects of security that must be enforced.
 
 ---
+## Authentication
 
-### Go for it.
-### Just add <span class="gold">PITCHME.md</span> ;)
+* Traditional Username and Password
+* Social Login via Facebook, Twitter, Google, etc.
+* Enterprise Federation and Single Sign On
+* Passwordless
+* MFA
+* Biometrics
+
+Note:
+
+
+---
+### Traditional Username and Password
+
+@div[left-50]
+![Traditional](http://i.imgur.com/IWSeMKD.png)
+@divend
+
+@div[right-50]
 <br>
-[Click here to learn more @fa[external-link fa-pad-left]](https://github.com/gitpitch/gitpitch/wiki)
+@ul[brighten]
+* Most Common
+* Easy to Implement
+* Least Secure
+@ulend
+@divend
+
+Note:
+"Easy to implement" here is a fallacy as actually it's not, as it's not easy to reach the level of security that you should be aiming for.
+
+
+---
+### Social Login
+
+@div[left-50]
+![social](http://i.imgur.com/aQlQwSL.png)
+@divend
+
+@div[right-50]
+<br>
+@ul[brighten]
+* Common
+* Medium Difficulty
+* More secure
+@ulend
+@divend
+
+Note:
+
+
+---
+### Single Sign On
+
+@div[left-50]
+![sso](http://i.imgur.com/qdj56Xd.png)
+@divend
+
+@div[right-50]
+<br>
+@ul[brighten]
+* Most Common in Enterprise
+* Solves authorization use cases
+@ulend
+@divend
+
+Note:
+SSO is important but not modern in the true sense of the concept as it's been around awhile and isn't terribly difficult to implement, likely the easiest for developers.
+
+---
+### Passwordless
+
+@div[left-50]
+![pwdless](http://i.imgur.com/1Rjo2z0.png)
+@divend
+
+@div[right-50]
+<br>
+@ul[brighten]
+* Rare / Up and Coming
+* Easy to Implement
+* More Secure than with password
+@ulend
+@divend
+
+Note:
+Passwordless is more secure than using a password. No passwords are stored.
+
+---
+## Authorization
+
+* Ensure the user has the right access at the right time
+* Change and revoke access
+
+Note:
+
+
+---
+## Security
+
+#### Identity doesn't end at the login screen
+
+Note:
+Unfortunately, we can't even go a few months without hearing about breaches of user login information and identities. As more companies implement an online or app presence and more consumers sign up for those accounts, the stakes of a security compromise only grow with each passing year. There are multiple different ways to ensure that users and their identities are being taken care of.
+
+---
+### Passwords
+
+@div[left-50]
+<br>
+@ul[brighten]
+* Complexity
+* Storage and Security
+@ulend
+@divend
+
+@div[right-50]
+![pwd](http://i.imgur.com/L7opICp.png)
+@divend
+
+Note:
+
+
+---
+### Multifactor Authentication
+
+@div[left-50]
+<br>
+@ul[brighten]
+* Something you know
+* Something you have
+* Something you are
+@ulend
+@divend
+
+@div[right-50]
+![mfa](http://i.imgur.com/lMxA4xB.png)
+@divend
+
+Note:
+
+
+---
+### Brute Force Protection
+
+@div[left-50]
+<br>
+@ul[brighten]
+* Prevent repeated failed login attempts
+* Alert user and validate identity
+@ulend
+@divend
+
+@div[right-50]
+![brute-force](https://upload.wikimedia.org/wikipedia/en/d/d0/Brute_Force_Coverart.png)
+@divend
+
+Note:
+
+
+---
+### Anomaly Detection
+
+@div[left-50]
+<br>
+@ul[brighten]
+* Proactively protect users
+* Alert user of suspicious activity
+* **Breached Password Detection**
+@ulend
+@divend
+
+@div[right-50]
+![anomaly](http://mabrek.github.io/img/aspm/bimodal-spike.png)
+@divend
+
+Note:
+
+
+---
+## Personalization
+
+* Give a personal touch to each user
+* Make Data Work for You
+* Enhanced Analytics
+
+Note:
+
+
+---
+## Why Modern Identity?
+
+### 3 Big Reasons
+
+Note:
+
+
+---
+## 1. Higher Conversation Rates
+
+Note:
+
+
+---
+## 2. Better User Experience
+
+Note:
+
+
+---
+## 3. Increased Revenue
+
+Note:
+
+
+---
+### 4. Enhanced Security
+
+#### Data and Security Breaches
+
+### Not **IF**, but **WHEN**
+
+Note:
+
+
+---?image=https://cdn.auth0.com/blog/build-vs-buy/data-breaches.png&size=auto 90%
+
+---
+## With Modern Identity you can Better Protect Yourself
+
+Note:
+
+
+---
+## Implementing Modern Identity
+
+### Build vs Buy
+
+Note:
+
+
+---
+## Build Modern Identity In-House
+
+Pros|Cons
+---|---
+Full Control | Complex and difficult
+Feature Parity | Cost to build and maintain
+No external dependency | Not Core Competency
+
+Note:
+
+
+---
+## Buy 3rd Party Solution
+
+Pros|Cons
+---|---
+Time to Market | Reliance on 3rd Party
+Dedicated Experts | Features may not fit needs
+Little Maintenance | Cost
+
+Note:
+Unless you decide to sink your resources into building a full-scale identity management team, you simply won't be able to tap into the benefits that a robust IAM solution can offer you. Besides that, outsourcing identity management can help you increase productivity, collaboration, efficiency and security in your organization through consolidated identity.
+
+---
+## Auth0
+
+### Identity as a Service
+
+@div[left-50]
+![iaas](https://gon.to/images/about/a0-b.png)
+@divend
+
+@div[right-50]
+<br>
+@ul[brighten]
+* Modern Identity in **10 Minutes**
+* Free Tier (7,000 Monthly Active Users)
+* Team of Security Experts
+@ulend
+@divend
+
+Note:
+
+
+---
+## Thank You!
+
+### Questions?
+
+Note:
+The question is no longer “should we or shouldn’t we”, but rather “how do we modernize our platform” for current and future needs. The software industry is going through a radical transformation and legacy monolithic applications are no longer compatible with today’s business needs and user expectations. Application modernization is not something that can be achieved overnight and there are many paths to the end goal, but starting with identity is a surefire win-win for both your organization and your users.
