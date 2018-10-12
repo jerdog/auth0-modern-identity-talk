@@ -143,7 +143,7 @@ SSO is important but not modern in the true sense of the concept as it's been ar
 Note:
 Passwordless is more secure than using a password. No passwords are stored.
 
----image=assets/images/kai-pilger-395931-unsplash.jpg&size=auto 90%
+---?image=assets/images/kai-pilger-395931-unsplash.jpg&size=auto 90%
 ## Authorization
 
 * Ensure the user has the right access at the right time
