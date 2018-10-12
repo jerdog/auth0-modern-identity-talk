@@ -39,6 +39,8 @@
   color: gray;
 }
 
+.reveal section img { background:none; border:none; box-shadow:none; }
+
 #gp-logo img {
   max-height: 1.5em;
   max-width: none;
@@ -48,4 +50,3 @@
   color: #e49436;
   font-size: 1.5em !important;
 }
-
