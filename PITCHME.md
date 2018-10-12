@@ -9,7 +9,7 @@ Head of Community, Auth0<br />
 <i class="fa fa-twitter"></i> @IAmJerdog<br />
 <i class="fa fa-web"></i>https://auth0.com<br />
 
----
+---?image=assets/images/face.jpg&size=auto 90%
 ## What is Identity?
 
 Note:
