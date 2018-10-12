@@ -257,7 +257,7 @@ Note:
 Note:
 3 Big Reasons
 
----
+---?image=assets/images/house-break-in.jpg&size=auto 90%
 ## Data and Security Breaches
 <br><br>
 ### Not **IF**, but **WHEN**
