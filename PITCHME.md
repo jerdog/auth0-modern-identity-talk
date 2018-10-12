@@ -33,7 +33,7 @@ Identity management is more than just being able to stick a username and passwor
 Note:
 Authentication will dictate how users login to your application. This used to be as simple as a username and password. Who here remembers not really having any requirements for a username/password? Now it's a lot more complicated, which is a good thing. We still have the uid/pwd option, but have added social connections (FB / Twitter), enterprise federation and SSO, and even "passwordless" to the mix. Implementing all of these into your application can be a time-consuming, and even scary proposition given the stakes that are often at risk.
 
----?image=assets/images/access-close-up-door-792034.jpg&size=auto 90%
+---?image=assets/images/access-close-up-door-792034.jpg&size=auto
 ## Authorization
 ### Right access, right time
 
