@@ -234,7 +234,7 @@ Note:
 Note:
 
 
----
+---?image=assets/images/chuttersnap-758245-unsplash.jpg&size=auto 90%&opacity=60
 ## Personalization
 
 * Give a personal touch to each user
