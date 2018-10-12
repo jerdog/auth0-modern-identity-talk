@@ -247,28 +247,14 @@ Note:
 ---
 ## Why Modern Identity?
 
-### 3 Big Reasons
-
-Note:
-
-
----
-## 1. Higher Conversation Rates
-
-Note:
-
-
----
+@ul
+## 1. Higher Conversion Rates
 ## 2. Better User Experience
-
-Note:
-
-
----
 ## 3. Increased Revenue
+@ulend
 
 Note:
-
+3 Big Reasons
 
 ---
 ### 4. Enhanced Security
