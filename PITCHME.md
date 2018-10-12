@@ -47,7 +47,7 @@ Authorization ensures the right users have the right access at the right time. F
 Note:
 The user profile is concerned with the data that your application has collected on each individual user. The better you know your users the better experience and personalization you can provide. With disparate networks and various sets of data floating all around the web, it can be difficult to get a clear understanding of your users, but companies that can will have an upper hand.
 
----
+---?image=assets/images/christopher-burns-271403-unsplash.jpg&size=auto
 ## Security
 ### Protecting data in motion and at rest
 
