@@ -259,7 +259,7 @@ Note:
 
 ---?image=assets/images/house-break-in.jpg&size=auto 90%
 ## Data and Security Breaches
-<br><br>
+<br><br><br>
 ### Not **IF**, but **WHEN**
 
 Note:
