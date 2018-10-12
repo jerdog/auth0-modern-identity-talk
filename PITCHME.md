@@ -71,7 +71,7 @@ Note:
 ### Traditional Username & Password
 
 @div[left-50]
-![Traditional](http://i.imgur.com/IWSeMKD.png)
+![Traditional](assets/images/trad_uname_pwd.png)
 @divend
 
 @div[right-50]
@@ -91,7 +91,7 @@ Note:
 ### Social Login
 
 @div[left-50]
-![social](http://i.imgur.com/aQlQwSL.png)
+![social](assets/images/social_login.png)
 @divend
 
 @div[right-50]
