@@ -248,10 +248,10 @@ Note:
 ## Why Modern Identity?
 
 @ul
-### 1. Higher Conversion Rates
-### 2. Better User Experience
-### 3. Increased Revenue
-### 4. Enhanced Security
+1. Higher Conversion Rates
+2. Better User Experience
+3. Increased Revenue
+4. Enhanced Security
 @ulend
 
 Note:
