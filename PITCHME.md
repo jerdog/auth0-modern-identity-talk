@@ -68,7 +68,7 @@ Note:
 
 
 ---
-### Traditional Username/Password
+### Traditional Username & Password
 
 @div[left-50]
 ![Traditional](http://i.imgur.com/IWSeMKD.png)
