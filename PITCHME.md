@@ -47,7 +47,7 @@ Authorization ensures the right users have the right access at the right time. F
 Note:
 The user profile is concerned with the data that your application has collected on each individual user. The better you know your users the better experience and personalization you can provide. With disparate networks and various sets of data floating all around the web, it can be difficult to get a clear understanding of your users, but companies that can will have an upper hand.
 
----?image=assets/images/jon-moore-399469-unsplash.jpg&size=auto 90%
+---
 ## Security
 ### Protecting data in motion and at rest
 
@@ -110,7 +110,7 @@ Note:
 ### Single Sign On
 
 @div[left-50]
-![sso](http://i.imgur.com/qdj56Xd.png)
+![sso](assets/images/sso.png)
 @divend
 
 @div[right-50]
@@ -128,7 +128,7 @@ SSO is important but not modern in the true sense of the concept as it's been ar
 ### Passwordless
 
 @div[left-50]
-![pwdless](http://i.imgur.com/1Rjo2z0.png)
+![pwdless](assets/images/passwordless.png)
 @divend
 
 @div[right-50]
@@ -152,7 +152,7 @@ Passwordless is more secure than using a password. No passwords are stored.
 Note:
 
 
----
+---?image=assets/images/jon-moore-399469-unsplash.jpg&size=auto 90%
 ## Security
 
 #### Identity doesn't end at the login screen
@@ -172,7 +172,7 @@ Unfortunately, we can't even go a few months without hearing about breaches of u
 @divend
 
 @div[right-50]
-![pwd](http://i.imgur.com/L7opICp.png)
+![pwd](assets/images/pwd_strength.png)
 @divend
 
 Note:
@@ -191,7 +191,7 @@ Note:
 @divend
 
 @div[right-50]
-![mfa](http://i.imgur.com/lMxA4xB.png)
+![mfa](assets/images/mfa_login.png)
 @divend
 
 Note:
@@ -209,7 +209,7 @@ Note:
 @divend
 
 @div[right-50]
-![brute-force](https://upload.wikimedia.org/wikipedia/en/d/d0/Brute_Force_Coverart.png)
+![brute-force](assets/images/brute_force.png)
 @divend
 
 Note:
@@ -228,7 +228,7 @@ Note:
 @divend
 
 @div[right-50]
-![anomaly](http://mabrek.github.io/img/aspm/bimodal-spike.png)
+![anomaly](assets/images/bimodal-spike.png)
 @divend
 
 Note:
@@ -280,7 +280,7 @@ Note:
 Note:
 
 
----?image=https://cdn.auth0.com/blog/build-vs-buy/data-breaches.png&size=auto 90%
+---?image=assets/images/data-breaches.png&size=auto 80%
 
 ---
 ## With Modern Identity you can Better Protect Yourself
@@ -326,7 +326,7 @@ Unless you decide to sink your resources into building a full-scale identity man
 ### Identity as a Service
 
 @div[left-50]
-![iaas](https://gon.to/images/about/a0-b.png)
+![iaas](assets/images/logo-grey.png)
 @divend
 
 @div[right-50]
