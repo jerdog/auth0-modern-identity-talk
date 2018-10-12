@@ -310,7 +310,7 @@ Unless you decide to sink your resources into building a full-scale identity man
 ### Identity as a Service
 
 @div[left-50]
-![iaas](assets/images/badge.png)
+![iaas](assets/images/badge-centered.png)
 @divend
 
 @div[right-50]
