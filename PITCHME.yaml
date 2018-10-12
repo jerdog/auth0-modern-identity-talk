@@ -5,3 +5,4 @@ logo : assets/images/logo.png
 transition : fade
 published : true
 mousewheel : true
+vertical-center : false
