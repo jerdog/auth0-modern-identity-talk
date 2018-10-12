@@ -10,4 +10,4 @@ Jeremy Meiss
 General
 
 ## Viewing
-https://gitpitch.com/jerdog/auth0-modern-identity-talk/dev?grs=gitlab
+https://gitpitch.com/jerdog/auth0-modern-identity-talk/
