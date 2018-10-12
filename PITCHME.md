@@ -40,7 +40,7 @@ Authentication will dictate how users login to your application. This used to be
 Note:
 Authorization ensures the right users have the right access at the right time. For instance, admins should be easily able to make system-wide changes, while regular users can only make changes relative to themselves. Access has to be fine-tuned, regardless of how large (or small) the app/business is. This requires that multiple departments, regions, complex hierarchies, groups, and users moving throughout the system need up-to-date access in order to work effectively. Access is therefore very important to making sure that your app operates as intended - and this can be a very real challenge to getting this aspect of identity right.
 
----
+---?image=assets/images/adult-business-commerce-375889.jpg&size=auto 95%
 ## Personalization
 ### Tailored user experience
 
