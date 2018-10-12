@@ -26,14 +26,14 @@ Digital identity is at the core of any application - invisible yet crucial. We o
 Note:
 Identity management is more than just being able to stick a username and password into a login box. It's very difficult to do right, and login will throw a wrench in the works if it's done wrong. But when you're committed to the best practices for login management, your business can benefit in ways you might not have realized. At a high level, we can break up identity into four distinct components: authentication, authorization, personalization, and security - with all of these points (Authentication, Authorization, Security, Personalization) having existed for a long time.
 
----?image=assets/shutterstock_96644059.jpg&size=auth0 90%
+---?image=assets/shutterstock_96644059.jpg&size=auto 90%
 ## Authentication
 ### The way you login
 
 Note:
 Authentication will dictate how users login to your application. This used to be as simple as a username and password. Who here remembers not really having any requirements for a username/password? Now it's a lot more complicated, which is a good thing. We still have the uid/pwd option, but have added social connections (FB / Twitter), enterprise federation and SSO, and even "passwordless" to the mix. Implementing all of these into your application can be a time-consuming, and even scary proposition given the stakes that are often at risk.
 
----?image=assets/access-close-up-door-792034.jpg&size=auth0 90%
+---?image=assets/access-close-up-door-792034.jpg&size=auto 90%
 ## Authorization
 ### Right access, right time
 
